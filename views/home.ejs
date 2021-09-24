@@ -1,0 +1,11 @@
+<%- include("partials/header"); -%>
+
+    <h1>Hello World!</h1>
+    <p><%= content %></p>
+    <br>
+
+    <% for (i=0; i<entries.length; i++) { %>
+        <p><%= entries[i] %></p>
+    <%}%>
+
+<%- include("partials/footer"); -%>
